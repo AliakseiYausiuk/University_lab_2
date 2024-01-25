@@ -19,7 +19,7 @@
             <h1>Запись на курсы</h1>
             <br>
             <section>
-                <form action="#" method="post">
+                <form action="#" method="post" id="myForm">
                     <p>Имя</p>
                     <input type="text" placeholder="Имя">
                     <p>Языки программирования</p>
@@ -32,8 +32,8 @@
 
                     <p>Секретное слово</p>
                     <input type="password">
-                    <button type="submit">Отправить</button>
-                    <button type="reset">Очистить</button>
+                    <button type="submit" form="myForm">Отправить</button>
+                    <button type="reset" form="myForm">Очистить</button>
                 </form>
             </section>
             <br>
